@@ -1,3 +1,29 @@
 Family_Set.ipynb
 keys.yaml
 Data_Analysis/pydata-book
+keys.env
+
+# dbt projects
+**/target/
+**/dbt_packages/
+**/logs/
+**/*.duckdb
+**/*.duckdb.wal
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Executables and passwords
+*.exe
+passwords.txt
