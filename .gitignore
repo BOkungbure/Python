@@ -27,3 +27,34 @@ Thumbs.db
 # Executables and passwords
 *.exe
 passwords.txt
+name_generator_duckdb/scripts/register_scheduled_task.ps1
+
+# Local secrets and machine-specific configuration
+.env
+.env.*
+.envrc
+keys.yaml
+keys.yml
+keys.env
+secrets.*
+credentials.*
+password.txt
+passwords.*
+token.txt
+client_secret.*
+access_token.*
+keys.json
+*.pem
+*.p12
+*.pfx
+*.key
+id_rsa*
+id_ed25519*
+service-account*.json
+.npmrc
+.pypirc
+**/profiles.yml
+
+# Independent/local-only repositories kept under this workspace
+/archive/
+/internet_archive_downloader/
